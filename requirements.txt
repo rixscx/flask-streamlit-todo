@@ -1,2 +1,3 @@
-gunicorn
- 
+streamlit
+pandas
+sqlite3
