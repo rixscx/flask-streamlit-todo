@@ -3,6 +3,17 @@ import sqlite3
 from datetime import datetime
 import pandas as pd
 
+# GitHub Repo URL
+GITHUB_REPO_URL = "https://github.com/rixscx/flask-streamlit-todo"
+
+# Fork Button
+st.markdown(
+    f'<a href="{GITHUB_REPO_URL}/fork" target="_blank">'
+    f'<img src="https://img.shields.io/github/forks/rixscx/flask-streamlit-todo?label=Fork%20on%20GitHub&style=social" alt="Fork on GitHub">'
+    f'</a>',
+    unsafe_allow_html=True
+)
+
 # Set up page configuration
 st.set_page_config(page_title="To-Do App", page_icon="✅", layout="wide")
 
