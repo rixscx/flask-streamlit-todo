@@ -1,6 +1,8 @@
 # 📌 Flask + Streamlit To-Do App
 
-A simple and interactive **To-Do List** application built with **Flask (Backend)** and **Streamlit (Frontend)**. This app allows users to add, manage, and track tasks with categories, priorities, and due dates.
+A simple and interactive **To-Do List** application built using **Flask (Backend)** and **Streamlit (Frontend)**. This app helps users efficiently manage tasks with categories, priorities, and due dates.
+
+---
 
 ## 🚀 Features
 
@@ -9,7 +11,11 @@ A simple and interactive **To-Do List** application built with **Flask (Backend)
 - 🎨 **Modern UI** – Styled with custom CSS for a clean look
 - 🔗 **GitHub Integration** – Easily fork and modify the project
 
+---
+
 ## 📦 Installation
+
+Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
 
@@ -22,7 +28,7 @@ A simple and interactive **To-Do List** application built with **Flask (Backend)
 
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies:**
@@ -31,64 +37,63 @@ A simple and interactive **To-Do List** application built with **Flask (Backend)
    pip install -r requirements.txt
    ```
 
+---
+
 ## 🏃‍♂️ Running the App
 
-### 1️⃣ Start the Flask Backend
+1️⃣ **Start the Flask Backend:**
 
 ```sh
 python app.py
 ```
 
-### 2️⃣ Start the Streamlit Frontend
+2️⃣ **Start the Streamlit Frontend:**
 
 ```sh
 streamlit run app.py
 ```
 
+---
+
 ## 🔧 Deployment
 
-- Deploy the **Flask backend** on **Render/Heroku** with **Gunicorn** and **GitHub auto-deploy**.
-- Deploy the **Streamlit app** on **Streamlit Cloud**, connected to the Flask API.
+- Deploy the **Flask backend** on **Render/Heroku** using **Gunicorn** with **GitHub auto-deploy**.
+- Deploy the **Streamlit frontend** on **Streamlit Cloud**, connecting it to the Flask API.
 
-## 🤝 Acknowledgment
+---
+
+## 🙌 Acknowledgment
 
 This project was guided by **Victor Ikechukwu Agughasi** ([GitHub](https://github.com/Victor-Ikechukwu)).
 
+---
+
 ## 🤝 Contributing
 
-Fork the repo and submit a pull request! 🚀
+We welcome contributions! Follow these steps to contribute:
 
-For guidance, reach out to Victor Ikechukwu Agughasi (GitHub).
-
-
-
-We welcome contributions! To get started:
-
-1. **Fork the repository** by clicking the fork button at the top-right corner.
-2. **Clone your forked repo** to your local machine:
+1. **Fork the repository** and clone it to your local machine:
    ```sh
    git clone https://github.com/your-username/flask-streamlit-todo.git
    cd flask-streamlit-todo
    ```
-3. **Create a new branch** for your feature or bug fix:
+2. **Create a new branch** for your feature or fix:
    ```sh
    git checkout -b feature-name
    ```
-4. **Make your changes**, test them, and commit:
+3. **Make your changes**, test them, and commit:
    ```sh
    git commit -m "Added feature-name"
    ```
-5. **Push your changes** to your forked repository:
+4. **Push your changes** to your forked repository:
    ```sh
    git push origin feature-name
    ```
-6. **Submit a pull request** to merge your changes into the main repo!
+5. **Submit a pull request** to merge your changes into the main repository.
 
-For guidance, reach out to **Victor Ikechukwu Agughasi** ([GitHub](https://github.com/Victor-Ikechukwu)).
+---
 
 ## ⭐ Fork & Support
 
-If you find this project helpful, please **star** the repository and **fork** it to contribute!
-
-
+If you find this project helpful, please **star** the repository and **fork** it to contribute! 🚀
 
