@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 
 # Set up page configuration
-st.set_page_config(page_title="Enhanced To-Do App", page_icon="✅", layout="wide")
+st.set_page_config(page_title="To-Do App", page_icon="✅", layout="wide")
 
 # Database setup
 def init_db():
